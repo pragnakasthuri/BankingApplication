@@ -4,7 +4,7 @@ package com.bridgelabz;
  * Creating class SavingsAccount and taking instance variables as annualInterestRate and savingsBalance
  */
 public class SavingsAccount {
-        private static float annualInterestRate;
+        private static double annualInterestRate;
         private double savingsBalance;
 
         /**
