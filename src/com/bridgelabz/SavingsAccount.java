@@ -27,7 +27,7 @@ public class SavingsAccount {
          * Creating calculateMonthlyInterest to calculate monthly interest rate
          */
         public void calculateMonthlyInterest() {
-                this.savingsBalance = this.savingsBalance + (this.savingsBalance * annualInterestRate)/12;
+                this.savingsBalance = this.savingsBalance + (this.savingsBalance *(annualInterestRate/100)/12);
         }
 
         /**

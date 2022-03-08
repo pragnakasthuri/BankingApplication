@@ -56,6 +56,7 @@ public class SavingsAccountTest {
         System.out.println("Saver2: New Balance with 4% interest rate: "+saver2.getSavingsBalance());
         System.out.println();
 
+
         /**
          * 12.Taking interest rate as 5%
          */
